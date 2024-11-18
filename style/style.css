@@ -1,0 +1,170 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*===Topo====*/
+
+header {
+    background-color: #3b8686;
+    padding: 2vw 0 2vw 10vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 15px 15px 15px 15px;
+}
+
+header nav ul li a.menu-atual {
+    background: rgba(255, 255, 255, 0.25);
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+}
+
+/*===Conteúdo====*/
+
+section.banner {
+    padding: 15vw 10vw 5vw 10vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../src/banner-principal.png) no-repeat center center;
+    background-size: cover;
+}
+
+section.banner h2 {
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(59, 134, 134, 0.5);
+    width: 40%;
+    padding: 10px 20px 10px 20px;
+}
+
+section.servicos {
+    padding: 3vw 10vw 3vw 10vw;
+}
+
+section.servicos ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+section.servicos ul li {
+    width: 25%;
+}
+
+section.servicos ul li span {
+    font-size: 3rem;
+    color: #3b8686;
+}
+
+section.servicos ul li h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+section.servicos ul li p {
+    color: #747474;
+}
+
+section.servicos ul li a {
+    background-color: #3b8686;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin: 20px 0 0 0;
+}
+
+section.banner-numeros {
+    padding: 3vw 10vw 5vw 3vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../src/banner-secundario.png) no-repeat center center;
+    background-size: cover;
+}
+
+section.banner-numeros ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.banner-numeros ul li {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    width: 10%;
+}
+
+section.possi {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 10vw 5vw 10vw;
+}
+
+section.possi div h3 {
+    font-size: 1.7rem;
+    color: #0b486b;
+}
+
+section.possi div p {
+    color: #747474;
+    width: 75%;
+    font-size: 1.2rem;
+}
+
+section.possi div p.botao a {
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin: 20px 0 0 0;
+    background-color: #0b486b;
+}
+
+footer nav {
+    padding: 5vw 10vw 5vw 10vw;
+    color: white;
+    background-color: #3b8686;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul.redes-sociais {
+    display: flex;
+    font-size: 2rem;
+    margin: 0 0 1vw 0;
+
+    li {
+        margin: 0 10px 0 0
+    }
+}
+
+footer nav div.contatos {
+    h4 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    ul {
+        li {
+            margin: 10px 0 0 0;
+        }
+    }
+}
+footer nav div.sumario {
+    ul{
+        li{
+            margin: 0 0 30px 0;
+            font-size:1.2rem;
+            text-align: right;
+        }
+    }
+}
